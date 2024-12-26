@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRO SOUZFER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #228B22;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #006400;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 1rem 0;
+            background-color: white;
+        }
+        .product h3 {
+            margin: 0;
+        }
+        .product p {
+            margin: 0.5rem 0;
+        }
+        .product .price {
+            color: #228B22;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AGRO SOUZFER</h1>
+        <p>Your one-stop shop for all agricultural needs!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product">
+                <h3>High-Quality Fertilizer</h3>
+                <p>Boost your crop yield with our premium fertilizer.</p>
+                <p class="price">$25.00 per bag</p>
+            </div>
+            <div class="product">
+                <h3>Organic Seeds</h3>
+                <p>100% organic seeds for sustainable farming.</p>
+                <p class="price">$10.00 per pack</p>
+            </div>
+            <div class="product">
+                <h3>Modern Farming Tools</h3>
+                <p>Efficient tools to ease your farming tasks.</p>
+                <p class="price">Price upon request</p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About AGRO SOUZFER</h2>
+            <p>At AGRO SOUZFER, we are dedicated to providing top-notch agricultural products and tools to farmers and enthusiasts. Our goal is to empower sustainable and efficient farming practices.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us via email at <a href="mailto:contact@agrosouzfer.com">contact@agrosouzfer.com</a> or call us at (123) 456-7890.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AGRO SOUZFER. All rights reserved.</p>
+    </footer>
+</body>
+</html>
